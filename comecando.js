@@ -1,4 +1,4 @@
-alert("Bem Vindo!");
+console.log("Hello World!");
 
 var a = 1;
-a;
+console.log(a);
