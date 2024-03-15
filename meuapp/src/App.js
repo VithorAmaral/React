@@ -22,6 +22,10 @@ class App extends Component {
 
   diminuir() {
     let state = this.state;
+    if (state.contador === 0) {
+      alert("Opa chegou a zero!")
+      return;
+    }
     state.contador -= 1;
     this.setState(state)
   }
